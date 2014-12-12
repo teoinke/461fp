@@ -1,0 +1,267 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* Background container */
+.container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url('../images/hotcoffee.jpg');
+    background-size: 100% 100%;
+    opacity: 1;
+    min-width: 1036px;
+    height: 813px;
+    /*height: 100vh;*/
+}
+
+.content {
+    position: relative; 
+    z-index: 2;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}​
+
+.container {  
+    position: absolute;
+}
+
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif;    
+}
+h1, h2, h3, h4, h5, h6, #main-nav {
+    font-family: 'Fredoka One', cursive;
+}
+
+/* Header container */
+#header-container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+img.logo {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 67px;
+    background: #999;
+    border-radius: 20px;
+}
+
+header #social-media {
+    margin-top: 15px;
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+header #social-media img {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+header #social-media div {
+    float: left;
+    margin-top: 15px;
+}
+
+
+/* Top menu */
+nav {
+    background-color: rgba(76, 79, 77, 0.9);
+    background-color: rgba(82, 45, 49, 0.9);
+    /*background-color: #522D31;*/
+}
+
+nav #nav-container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav#main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+nav#main-nav ul li {
+    float: left;
+    position: relative;/**/
+    right: 50%;/**/
+}
+
+nav#main-nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.main-menu {
+    list-style-type: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.main-menu li a {
+    padding: 10px 20px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.main-menu li a:hover {
+    background-color: #888;
+    border-radius: 18px;
+}
+
+/* Page Content */
+
+
+#page-wrapper {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#page-wrapper p {
+    margin-left: 40px;
+    margin-right: 40px; 
+    text-align: justify;
+}
+
+#page-wrapper .logo-small {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#page-wrapper .bean-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    float: left;
+}
+
+#main-content {
+    float:left;
+    width: 954px;
+    height: 100px;
+
+    min-height: 560px;
+    overflow: hidden;
+    overflow-y: auto;
+
+    border: solid 3px #222;
+    /*opacity: 0.3;*/
+
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.col-half-left {
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+
+.col-half-right {
+    width: 50%;
+    float: right;
+    text-align: justify;
+}
+
+#content-col {
+    width: 660px;
+    float: left;
+    padding: 20px;
+}
+
+#content-col h1 {
+    font-family: 'Rock Salt', cursive;
+}
+
+#side-col {
+    width: 260px;
+    float: left;
+}
+
+
+footer {
+    height: 150px;
+    color: white;
+}
+
+footer #menu-footer {
+    float: left;
+}
+
+footer #menu-footer li {
+    float: left;
+    font-size: 14px;
+}
+
+footer #menu-footer li a {
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+footer #menu-footer li a:hover {
+    background: #444;
+}
+
+footer #social-media {
+    margin-top: 15px;
+    float: right;
+    font-size: 16px;
+}
+
+footer #social-media img {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+footer #social-media div {
+    float: left;
+    margin-top: 15px;
+}

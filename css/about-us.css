@@ -1,0 +1,35 @@
+#about-us {
+	text-shadow: 1px 1px white;
+	font-size: 15px;
+}
+
+#about-us h1 {
+	font-weight: normal;
+}
+
+#about-us ul {
+	list-style: none;
+}
+
+#about-us ul li {
+	text-align: left;
+	margin-left: 200px;
+	color: black;
+	margin-bottom: 10px;
+}
+
+#about-us #attributes p {
+	font-size: 19px;
+	text-align: center;
+}
+
+#about-us .contact-us {
+	/*margin-left: 20px;*/
+	margin-top: 20px;
+	text-align: left;
+}
+
+#about-us .contact-us a {
+	color: black;
+	text-decoration: none;
+}
