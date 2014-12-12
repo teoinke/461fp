@@ -1,8 +1,15 @@
 //home
-$("#goToContact").click(function() {
+$(".menu-home").click(function() {
     $("#main-content").load("home.html");
 });
+//about
+$(".menu-products").click(function() {
+    $("#main-content").load("products&services.html");
+});
+$(".menu-about").click(function() {
+    $("#main-content").load("about.html");
+});
 //contact
-$("#goToContact").click(function() {
+$(".menu-contact").click(function() {
     $("#main-content").load("contact.html");
 });

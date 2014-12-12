@@ -6,7 +6,7 @@ $(function(){
 $(function(){
     $("footer").load("footer.html");
 });
-//about - main page
+//main page
 $(function(){
-    $("#main-content").load("about.html");
+    $("#main-content").load("home.html");
 });
