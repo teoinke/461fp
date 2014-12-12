@@ -233,7 +233,10 @@ footer #menu-footer {
 
 footer #menu-footer li {
     float: left;
-    font-size: 14px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    margin-right: 10px;
 }
 
 footer #menu-footer li a {
@@ -252,6 +255,15 @@ footer #social-media {
     font-size: 16px;
 }
 
+footer .address {
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 14px;
+    text-shadow: 3px 3px black;
+    float: right;
+}
+
+/*
 footer #social-media img {
     float: right;
     width: 30px;
@@ -263,3 +275,4 @@ footer #social-media div {
     float: left;
     margin-top: 15px;
 }
+*/
