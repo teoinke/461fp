@@ -104,15 +104,13 @@ header #social-media div {
 
 /* Top menu */
 nav {
-    background-color: rgba(76, 79, 77, 0.9);
-    background-color: rgba(82, 45, 49, 0.9);
-    /*background-color: #522D31;*/
 }
 
 nav #nav-container {
     width: 960px;
     margin: 0 auto;
     overflow: hidden;
+    background-color: rgba(82, 45, 49, 0.9);
 }
 
 nav#main-nav ul {
