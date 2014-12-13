@@ -1,29 +1,56 @@
-<div id="about-us">
+
+
+<div id="contact-us">
     <h1><img class="logo-small" src="images/cup-logo.png" alt="logo-small">Contact Us</h1>
 
-  <form name="contactForm" method="post" onsubmit="return validate()">
+    <div class="c1">
+      <p>
+          Whether you are an existing customer who needs to schedule a service call, talk to your sales rep or ask
+          about our latest technologies, or you and your company are looking for more information on our
+          services, our customer service department will handle your inquiry and get you to the person who can
+          get you the information you are looking for.
+      </p>
+
+      <p>
+          You may contact us by phone or by submitting the contact form below. Your business is important to
+          us and we pledge to respond to your inquiry within 24 hours.
+      </p>
+    </div>
+
+    <div class="c2">
+
+
+        <form name="contactForm" method="post" onsubmit="return validate()">
+                
+          <fieldset>
+            <legend>Contact</legend>
+
+            <label for="name_field">Name:</label>
+            <input placeholder="Insert your name" type="text" name="name_field" id="name_field"><br/><br/>
+
+            <label for="phone_field">Phone Number:</label>
+            <input type="tel" name="phone_field" id="phone_field" placeholder="+1-XXX-XXX-XXXX"><br/><br/>
+
+            <label for="email_field">Email Address:</label>
+            <input placeholder="example@company.com" type="email" name="email_field" id="email_field"><br/><br/>
+
+
+            Comments:<br/>
+            <textarea placeholder="Any thoughts?" name="comments_field" rows="3" cols="32"></textarea><br/><br/>
           
-    <fieldset>
-      <legend>Contact Us</legend>
 
-      <label for="name_field">Name:</label>
-      <input type="text" name="name_field" id="name_field"><br/><br/>
+          </fieldset><br/><br/>
 
-      <label for="phone_field">Phone Number:</label>
-      <input type="tel" name="phone_field" id="phone_field" placeholder="+1-XXX-XXX-XXXX"><br/><br/>
+          <input type="submit" value="Send"><br/><br/><br/>
 
-      <label for="email_field">Email Address:</label>
-      <input type="email" name="email_field" id="email_field"><br/><br/>
+        </form>
+
+    </div>
 
 
-      Comments:<br/>
-      <textarea name="comments_field" rows="6" cols="50"></textarea><br/><br/>
-    
-
-    </fieldset><br/><br/>
-
-    <input type="submit" value="Send"><br/><br/><br/>
-
-  </form>
-
+    <div class="c3">
+        <div id="map-canvas"></div>  
+    </div>
+  <!-- // <script type="text/javascript" src="js/map.js"></script> -->
 </div>
+

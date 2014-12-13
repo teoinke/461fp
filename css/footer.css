@@ -1,0 +1,47 @@
+
+footer {
+    height: 150px;
+    color: white;
+}
+
+footer #menu-footer {
+    float: left;
+    margin-left: 10%;
+}
+
+footer #menu-footer li {
+    float: left;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+footer #menu-footer li a {
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+footer #menu-footer li a:hover {
+    background: #444;
+}
+
+footer #social-media {
+    margin-top: 15px;
+    float: right;
+    font-size: 16px;
+}
+
+footer .address, footer .address2 {
+    margin-top: 15px;
+    margin-right: 20px;
+    font-size: 14px;
+    text-shadow: 3px 3px black;
+    float: right;
+}
+
+footer .address {
+    margin-right: 10%;
+}
+
