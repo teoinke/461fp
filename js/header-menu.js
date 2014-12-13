@@ -10,6 +10,6 @@ $(".menu-about").click(function() {
     $("#main-content").load("about.html");
 });
 //contact
-$(".menu-contact").click(function() {
+$('body').on('click', '.menu-contact', function() {
     $("#main-content").load("contact.html");
 });

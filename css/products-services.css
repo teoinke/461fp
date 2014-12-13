@@ -1,3 +1,19 @@
+#products-services {
+    text-shadow: 1px 1px white;
+    font-size: 15px;
+}
+
+#products-services a {
+    color: black;
+    text-decoration: none;
+}
+
+#pdf-image {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
 #text-image{
     position: relative;
     display:inline-block;
@@ -37,4 +53,8 @@
 .text-right{
     width: 60%;
     float: right;
+}
+
+.image-cups {
+    margin-bottom: 35px;
 }
